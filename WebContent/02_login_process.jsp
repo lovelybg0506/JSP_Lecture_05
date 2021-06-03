@@ -8,7 +8,7 @@
 <title>02_login_process</title>
 </head>
 <body>
-<% // scope를 생략하면 default는 page다.
+<% // scope="(속성 page,request,session,application)"를 생략하면 default는 page다.
 
 	String id=request.getParameter("id");
 	String password=request.getParameter("password");
